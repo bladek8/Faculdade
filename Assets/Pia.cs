@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Pia : MonoBehaviour
 {
-    Transform papel;
+    public Transform papel;
+    public Transform fundo;
     private void OnMouseDown()
     {
-        Instantiate(papel, Camera.main.transform.position, Quaternion.identity);
+        Vector3 cameraPosition = Camera.main.transform.position;
+        Instantiate(papel, new Vector3(cameraPosition.x, cameraPosition.y, -9), Quaternion.identity);
+        fundo.position = new Vector3(fundo.position.x, fundo.position.y, -3);
     }
 }
