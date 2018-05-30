@@ -14,6 +14,7 @@ public class Mouse : MonoBehaviour
     private float screenWidth;
     private float screenHeight;
     private Vector3 cameraMove;
+    public bool frezzed = false;
     // Use this for initialization
     void Start()
     {
@@ -27,23 +28,26 @@ public class Mouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.mousePosition.x > screenWidth - offset) && transform.position.x < minMaxXPosition.y)
+        if (!frezzed)
         {
-            cameraMove.x += MoveSpeed();
+            if ((Input.mousePosition.x > screenWidth - offset) && transform.position.x < minMaxXPosition.y)
+            {
+                cameraMove.x += MoveSpeed();
+            }
+            if ((Input.mousePosition.x < offset) && transform.position.x > minMaxXPosition.x)
+            {
+                cameraMove.x -= MoveSpeed();
+            }
+            if ((Input.mousePosition.y > screenHeight - offset) && transform.position.y < minMaxYPosition.y)
+            {
+                cameraMove.y += MoveSpeed();
+            }
+            if ((Input.mousePosition.y < offset) && transform.position.y > minMaxYPosition.x)
+            {
+                cameraMove.y -= MoveSpeed();
+            }
+            transform.position = cameraMove;
         }
-        if ((Input.mousePosition.x < offset) && transform.position.x > minMaxXPosition.x)
-        {
-            cameraMove.x -= MoveSpeed();
-        }
-        if ((Input.mousePosition.y > screenHeight - offset) && transform.position.y < minMaxYPosition.y)
-        {
-            cameraMove.y += MoveSpeed();
-        }
-        if ((Input.mousePosition.y < offset) && transform.position.y > minMaxYPosition.x)
-        {
-            cameraMove.y -= MoveSpeed();
-        }
-        transform.position = cameraMove;
     }
 
     void FixedUpdate()

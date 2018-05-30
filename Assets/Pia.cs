@@ -6,10 +6,17 @@ public class Pia : MonoBehaviour
 {
     public Transform papel;
     public Transform fundo;
+    public GameObject camera;
+    public BoxCollider2D boxCollider2DFundo;
+    Mouse script;
+
     private void OnMouseDown()
     {
+        script = camera.GetComponent<Mouse>();
+        script.frezzed = true;
         Vector3 cameraPosition = Camera.main.transform.position;
         Instantiate(papel, new Vector3(cameraPosition.x, cameraPosition.y, -9), Quaternion.identity);
         fundo.position = new Vector3(fundo.position.x, fundo.position.y, -3);
     }
+
 }
