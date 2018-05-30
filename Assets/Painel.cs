@@ -6,7 +6,7 @@ public class Painel : MonoBehaviour
 {
 
     Camera camera;
-    //public Transform painel;
+    public Transform painel;
     Mouse script;
     public Transform fundo;
     bool isClicked = false;
@@ -23,7 +23,7 @@ public class Painel : MonoBehaviour
         {
             script.frezzed = true;
             isClicked = true;
-            //Instantiate(painel, new Vector3(camera.x, camera.y, -9), Quaternion.identity);
+            Instantiate(painel, new Vector3(-0.067f, 1.13f, -9), Quaternion.identity);
             fundo.position = new Vector3(fundo.position.x, fundo.position.y, -3);
             camera.orthographicSize -= 4;
             camera.transform.position = new Vector3(camera.transform.position.x, 1.2f, camera.transform.position.z);
@@ -34,6 +34,7 @@ public class Painel : MonoBehaviour
             isClicked = false;
             fundo.position = new Vector3(fundo.position.x, fundo.position.y, 0);
             camera.orthographicSize += 4;
+            Destroy(painel);
         }
     }
 }
