@@ -898,7 +898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ba457baf517254ea13a99ed6fe9cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel: {fileID: 0}
+  painel: {fileID: 910433676}
   fundo: {fileID: 1054705960}
 --- !u!50 &1630743596
 Rigidbody2D:
