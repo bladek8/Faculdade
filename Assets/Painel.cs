@@ -31,11 +31,11 @@ public class Painel : MonoBehaviour
         }
         else
         {
-            script.frezzed = false;
-            isClicked = false;
-            fundo.position = new Vector3(fundo.position.x, fundo.position.y, 0);
-            camera.orthographicSize += 4;
-            Destroy(painelClone.gameObject);
+            //script.frezzed = false;
+            //isClicked = false;
+            //fundo.position = new Vector3(fundo.position.x, fundo.position.y, 0);
+            //camera.orthographicSize += 4;
+            //Destroy(painelClone.gameObject);
         }
     }
 }
