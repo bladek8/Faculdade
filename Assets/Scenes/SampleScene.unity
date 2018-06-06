@@ -255,6 +255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 1
   Botao: {fileID: 1694792182}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &251517236
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +556,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &483733007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 483733008}
+  - component: {fileID: 483733010}
+  - component: {fileID: 483733009}
+  m_Layer: 0
+  m_Name: botao0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483733008
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483733007}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 910433676}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483733009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483733007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468c813839f5b34419a19e5a6ae9d1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botao: 0
+  Botao: {fileID: 1465455213}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
+--- !u!61 &483733010
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483733007}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.17334007, y: -0.77394724}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.22249189, y: 0.27639633}
+  m_EdgeRadius: 0
 --- !u!1 &508280913
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1071,7 @@ Transform:
   m_LocalPosition: {x: 23.53, y: 1.13, z: -9}
   m_LocalScale: {x: 0.6091651, y: 0.5879254, z: 0.5879254}
   m_Children:
-  - {fileID: 1480000908}
+  - {fileID: 483733008}
   - {fileID: 143278139}
   - {fileID: 2131894203}
   - {fileID: 1669307336}
@@ -1646,6 +1718,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 7
   Botao: {fileID: 508280913}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &1465455213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,74 +1794,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1480000907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1480000908}
-  - component: {fileID: 1480000910}
-  - component: {fileID: 1480000909}
-  m_Layer: 0
-  m_Name: botao0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1480000908
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1480000907}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9}
-  m_LocalScale: {x: 1.000008, y: 1.0000077, z: 1.0000077}
-  m_Children: []
-  m_Father: {fileID: 910433676}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1480000909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1480000907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468c813839f5b34419a19e5a6ae9d1a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  botao: 0
-  Botao: {fileID: 1465455213}
---- !u!61 &1480000910
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1480000907}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.17216249, y: -0.7653135}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.2335991, y: 0.27496624}
-  m_EdgeRadius: 0
 --- !u!1 &1528892732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +1936,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 4
   Botao: {fileID: 1726644387}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &1630743593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2172,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661725967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48410416, y: -0.4337, z: -0.5}
+  m_LocalPosition: {x: 0.476, y: -0.4337, z: -0.5}
   m_LocalScale: {x: 1.0292684, y: 1.066452, z: 1.066452}
   m_Children: []
   m_Father: {fileID: 910433676}
@@ -2283,6 +2291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 3
   Botao: {fileID: 644062567}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &1694792182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2509,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 8
   Botao: {fileID: 438430962}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &1769906667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +2579,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 6
   Botao: {fileID: 1332103996}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &1830243703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +2912,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 9
   Botao: {fileID: 1661725967}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &2102482909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2966,6 +2982,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 5
   Botao: {fileID: 1933161546}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
 --- !u!1 &2131894202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3034,3 +3052,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 2
   Botao: {fileID: 1528892732}
+  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
+  senhadigitada: 
