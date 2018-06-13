@@ -181,8 +181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 1
   Botao: {fileID: 1694792182}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &251517236
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,8 +523,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 0
   Botao: {fileID: 1465455213}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!61 &483733010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1025,6 +1021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055956265}
   - component: {fileID: 1055956266}
+  - component: {fileID: 1055956267}
   m_Layer: 0
   m_Name: Cancel
   m_TagString: Untagged
@@ -1070,6 +1067,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.24470496, y: 0.26921153}
   m_EdgeRadius: 0
+--- !u!114 &1055956267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055956264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468c813839f5b34419a19e5a6ae9d1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botao: 11
+  Botao: {fileID: 0}
 --- !u!1 &1114767878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,8 +1486,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 7
   Botao: {fileID: 508280913}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &1465455213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,8 +1702,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 4
   Botao: {fileID: 1726644387}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &1630743593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2050,8 +2056,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 3
   Botao: {fileID: 644062567}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &1694792182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,8 +2272,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 8
   Botao: {fileID: 438430962}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &1769906667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,8 +2340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 6
   Botao: {fileID: 1332103996}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &1830243703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,6 +2443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844131141}
   - component: {fileID: 1844131142}
+  - component: {fileID: 1844131143}
   m_Layer: 0
   m_Name: Submit
   m_TagString: Untagged
@@ -2488,6 +2489,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.21693873, y: 0.27496624}
   m_EdgeRadius: 0
+--- !u!114 &1844131143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1844131140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468c813839f5b34419a19e5a6ae9d1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botao: 12
+  Botao: {fileID: 0}
 --- !u!1 &1851377577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,8 +2684,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 9
   Botao: {fileID: 1661725967}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &2102482909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,8 +2752,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 5
   Botao: {fileID: 1933161546}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
 --- !u!1 &2131894202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,5 +2820,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botao: 2
   Botao: {fileID: 1528892732}
-  senha: 01000000060000000100000002000000010000000200000000000000010000000100000005000000
-  senhadigitada: 
