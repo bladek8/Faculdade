@@ -34,6 +34,8 @@ public class BotaoPainel : MonoBehaviour
             {
                 Debug.Log("Acertou");
                 //trocar de Tela
+                Application.LoadLevel("passoufase1");
+
             }
         }
 

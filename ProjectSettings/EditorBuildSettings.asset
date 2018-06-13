@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 649fb295a587573459f19762d154938a
   - enabled: 1
+    path: Assets/Scenes/textofase1.unity
+    guid: bae6006ae8fe92a4f8021d6cbfd8331b
+  - enabled: 1
+    path: Assets/Scenes/texto2fase1.unity
+    guid: 36084d2f5d9c7134886db9c1c0bac009
+  - enabled: 1
+    path: Assets/Scenes/texto3fase1.unity
+    guid: 29fc978c3344f2a4d88bb5699977e357
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/passoufase1.unity
+    guid: 1b2a09fd1181e66459d31a079e3361ec
   m_configObjects: {}

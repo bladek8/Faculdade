@@ -6,7 +6,7 @@ public class menu : MonoBehaviour {
     public void start()
     {
         //Debug.Log("Mudou a cena");
-        Application.LoadLevel("SampleScene");
+        Application.LoadLevel("textofase1");
     }
 
     public void sair()
