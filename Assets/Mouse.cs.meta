@@ -3,7 +3,9 @@ guid: 2cf5484ded2628e42bec2e98db0375e8
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cursorHand: {fileID: 2800000, guid: af2b2ea4209e35f418eb78972ad563fd, type: 3}
+  - cursorCloseHand: {fileID: 2800000, guid: c23dfea492c777c49995eddde1eac87a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

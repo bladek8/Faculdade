@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/passoufase1.unity
     guid: 1b2a09fd1181e66459d31a079e3361ec
+  - enabled: 1
+    path: Assets/Scenes/fase2.unity
+    guid: dd3da545b348d03428150906a827f0f1
+  - enabled: 1
+    path: Assets/Scenes/fase2sala.unity
+    guid: dfcfd49dcf4f5d4418e15039d887df2a
   m_configObjects: {}
